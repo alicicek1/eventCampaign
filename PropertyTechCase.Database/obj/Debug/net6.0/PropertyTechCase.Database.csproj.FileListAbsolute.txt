@@ -1,0 +1,11 @@
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/bin/Debug/net6.0/PropertyTechCase.Database.deps.json
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/bin/Debug/net6.0/PropertyTechCase.Database.dll
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/bin/Debug/net6.0/PropertyTechCase.Database.pdb
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.AssemblyInfoInputs.cache
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.AssemblyInfo.cs
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.csproj.CoreCompileInputs.cache
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.dll
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/refint/PropertyTechCase.Database.dll
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/PropertyTechCase.Database.pdb
+/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Database/obj/Debug/net6.0/ref/PropertyTechCase.Database.dll

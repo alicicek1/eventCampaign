@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  api:
+    container_name: api
+    image: api
+    build:
+      context: ./PropertyTechCase.Api
+      dockerfile: ./Dockerfile
+    ports:
+      - "8081:8081"
+    restart: on-failure
+
+  event-api:
+    container_name: api
+    image: api
+    build:
+      context: ./PropertyTechCase.Event.Api
+      dockerfile: ./Dockerfile
+    ports:
+      - "8082:8082"
+    restart: on-failure
+
+  worker:
+    container_name: worker
+    image: worker
+    build:
+      context: ./PropertyTechCase.Worker
+      dockerfile: ./Dockerfile
+    restart: on-failure
+  
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - ./rabbitmqConf:/rabbitmqConf

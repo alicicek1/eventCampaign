@@ -1,0 +1,24 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.4"
+services:
+  worker:
+    build:
+      context: "/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Worker"
+      dockerfile: "./Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net6.0/PropertyTechCase.Worker.dll"
+    environment:
+      DOTNET_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "/Users/alicicek/.nuget/packages"
+      NUGET_FALLBACK_PACKAGES: "/Users/alicicek/.nuget/packages"
+    image: "worker:dev"
+    ports: []
+    volumes:
+    - "/Users/alicicek/.nuget/packages:/root/.nuget/fallbackpackages"
+    - "/Users/alicicek/RiderProjects/PropertyTechCase/PropertyTechCase.Worker:/app:rw"
+    - "/Users/alicicek/RiderProjects/PropertyTechCase:/src:rw"
+    working_dir: "/app"
